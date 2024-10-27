@@ -60,7 +60,7 @@ API_SERVER.post("/products/create",function(request,response){
 API_SERVER.listen(process.env.PORT,process.env.HOSTNAME,function(){
     console.log(`server started http://${process.env.HOSTNAME}:${process.env.PORT}`);
 })
-API_SERVER.listen()
+//API_SERVER.listen()
 // API_SERVER.listen(3000,"localhost",function(){
 //     console.log("http://localhost:3000")
 // })
